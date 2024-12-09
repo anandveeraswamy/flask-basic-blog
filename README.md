@@ -1,3 +1,4 @@
+# Run the following commands on your terminal
 ## create virtual environment and activate it
 python -m venv venv (create virtual environment)
 source venv/bin/activate (Mac)
