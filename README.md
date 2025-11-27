@@ -12,4 +12,5 @@ pip3 install -r requirements.txt
 flask run
 
 ## Paste the link below on a browser
-http://127.0.0.1:5000
+On local VSCode you will a link such as http://127.0.0.1:5000
+On Codespace you will get a different link
