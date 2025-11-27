@@ -1,16 +1,42 @@
-# Run the following commands on your terminal
-## create virtual environment and activate it
-python -m venv venv (create virtual environment)
-source venv/bin/activate (Mac)
-venv\Scripts\activate (windows)
+# Running the Flask Application
 
-## install libraries
-pip install -r requirements.txt or
+## 1. Create a Virtual Environment and Activate It
+
+### Mac / Linux
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+## 2. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+or
+
+```bash
 pip3 install -r requirements.txt
+```
 
-## Run the flask application
+## 3. Run the Flask Application
+
+```bash
 flask run
+```
 
-## Paste the link below on a browser
-On local VSCode you will a link such as http://127.0.0.1:5000
-On Codespace you will get a different link
+## 4. Paste the Link in Your Browser
+
+- On local VSCode you will get a link such as:
+  ```
+  http://127.0.0.1:5000
+  ```
+
+- On GitHub Codespaces you will get a different link.
